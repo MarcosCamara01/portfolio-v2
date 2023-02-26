@@ -1,0 +1,136 @@
+{
+    "header": {
+        "home": "Home",
+        "skills": "Skills",
+        "work": "Projects",
+        "contact": "Contact"
+    },
+    "home": {
+        "h1": "Hi, my name is",
+        "h2": "Marcos Cámara",
+        "h3": "I'm a web developer",
+        "p": "I am specialized in creating websites with react and related frameworks. I am currently interested in working as a freelance with people who want to create great websites.",
+        "a": "Contact me!"
+    },
+    "verticaltabs": {
+        "h2": "Technologies I master",
+        "h3": "Where did i learn it?",
+        "js0": "Learn JavaScript - CodeCademy",
+        "js1": "Intermediate JavaScript - CodeCademy",
+        "js2": "Interactive JavaScript Websites - CodeCademy",
+        "js3": "Debug JavaScript Errors - CodeCademy",
+        "js4": "Asynchronous JavaScript - CodeCademy",
+        "node": "Learn Node.js - CodeCademy",
+        "react0": "Learn React - CodeCademy",
+        "react1": "Master en React- Víctor Robles",
+        "html": "HTML Course - SoyDalto",
+        "css": "CSS Course - SoyDalto"
+    },
+    "projects": {
+        "h2": "Things I've built",
+        "content": [
+            {
+                "project_type": "Featured project",
+                "h4": "Chpanth Blog",
+                "p": "Blog created with React, fully responsive in which you can interact with all pages, navigation menu and footer. SEO optimized.",
+                "technologies": [
+                    "React",
+                    "CSS",
+                    "JSON"
+                ],
+                "link_web": "https://chpanth.com/",
+                "link_git": "https://github.com/MarcosCamara01/blog-v2",
+                "img": "chpanth"
+            },
+            {
+                "project_type": "Featured project",
+                "h4": "Google Keep Clone",
+                "p": "Notes application that uses a MongoDB server and an API created with Nodejs and Express that allows interaction with the server, the client side is created with React and CSS.",
+                "technologies": [
+                    "Node.js",
+                    "React",
+                    "MongoDB",
+                    "Express"
+                ],
+                "link_web": "https://keep-clone-93106.web.app/",
+                "link_git": "https://github.com/MarcosCamara01/google-keep-clone",
+                "img": "GoogleKeepClone"
+            }
+        ]
+    },
+    "other_projects": {
+        "h2": "Other Projects",
+        "view_more_button": "Show More",
+        "content": [
+            {
+                "link": "https://github.com/MarcosCamara01/portfolio-v1",
+                "h3": "Portfolio v2 (Current)",
+                "p": "Fully responsive portfolio made with React, CSS and a translation system using i18next and JSON files. SEO optimized.",
+                "technologies": [
+                    "React",
+                    "CSS",
+                    "JSON"
+                ]
+            },
+            {
+                "link": "https://github.com/MarcosCamara01/eccomerce-test",
+                "h3": "Eccomerce example",
+                "p": "An example of an eccomerce with Nextjs, Typescript, Tailwindcss, Prisma and Stripe as a payment processor, fully functional.",
+                "technologies": [
+                    "TypeScript",
+                    "TailwindCSS",
+                    "Stripe"
+                ]
+            },
+            {
+                "link": "https://github.com/MarcosCamara01/api-socialnetwork",
+                "h3": "Social Network API",
+                "p": "An API that interacts with a MongoDB server and has the functionality of a social network like Twitter.",
+                "technologies": [
+                    "Node.js",
+                    "Express",
+                    "MongoDB"
+                ]
+            },
+            {
+                "link": "https://github.com/MarcosCamara01/api-blog",
+                "h3": "Blog API",
+                "p": "An API that interacts with a MongoDB server and has the functionality of a blog (such as create, delete, edit, or search).",
+                "technologies": [
+                    "Node.js",
+                    "Express",
+                    "MongoDB"
+                ]
+            },
+            {
+                "link": "https://github.com/MarcosCamara01/portfolio-v1",
+                "h3": "Portfolio v1",
+                "p": "A simple portfolio created with HTML, CSS, and JavaScript where I described my experience as a web developer at that time.",
+                "technologies": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ]
+            },
+            {
+                "link": "https://github.com/MarcosCamara01/blog-v1",
+                "h3": "Blog v1",
+                "p": "Simple blog created with HTML, CSS and JavaScript fully responsive and with the possibility of navigating between blog pages.",
+                "technologies": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ]
+            }
+        ]
+    },
+    "contact": {
+        "h2": "Contact",
+        "msg": "Send me a message",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "button": "Submit"
+    },
+    "footer": "Made with ❤️ by Marcos Cámara"
+}
