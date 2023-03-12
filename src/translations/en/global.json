@@ -9,7 +9,7 @@
         "h1": "Hi, my name is",
         "h2": "Marcos Cámara",
         "h3": "I'm a web developer",
-        "p": "I am specialized in creating websites with react and related frameworks. I am currently interested in working as a freelance with people who want to create great websites.",
+        "p": "I am specialized in creating websites with react and related frameworks. I am currently interested in working as a frontend developer with people or companies who want to create great websites.",
         "a": "Contact me!"
     },
     "verticaltabs": {
@@ -63,9 +63,29 @@
         "view_more_button": "Show More",
         "content": [
             {
+                "link": "https://github.com/MarcosCamara01/next-job-description",
+                "h3": "NextJs job description",
+                "p": "Application created with NextJs, TailwindCSS and connects with the OpenAI API.",
+                "technologies": [
+                    "NextJs",
+                    "OpenAI",
+                    "TailwindCSS"
+                ]
+            },
+            {
+                "link": "https://github.com/MarcosCamara01/nextjs-eccomerce",
+                "h3": "NextJs ecommerce",
+                "p": "Ecommerce created with NextJs, a server using MongoDB, and Stripe as the payment processor. Design with the mobile-first philosophy.",
+                "technologies": [
+                    "NextJs",
+                    "MongoDB",
+                    "TailwindCSS"
+                ]
+            },
+            {
                 "link": "https://github.com/MarcosCamara01/portfolio-v1",
                 "h3": "Portfolio v2 (Current)",
-                "p": "Fully responsive portfolio made with React, CSS and a translation system using i18next and JSON files. SEO optimized.",
+                "p": "Fully responsive portfolio made with React, CSS, and a translation system using i18next and JSON files. SEO optimized.",
                 "technologies": [
                     "React",
                     "CSS",
@@ -73,9 +93,19 @@
                 ]
             },
             {
+                "link": "https://github.com/MarcosCamara01/weather-app",
+                "h3": "Weather app",
+                "p": "Weather application created with React that obtains real-time information with the Weather API.",
+                "technologies": [
+                    "React",
+                    "CSS",
+                    "WeatherAPI"
+                ]
+            },
+            {
                 "link": "https://github.com/MarcosCamara01/eccomerce-test",
-                "h3": "Eccomerce example",
-                "p": "An example of an eccomerce with Nextjs, Typescript, Tailwindcss, Prisma and Stripe as a payment processor, fully functional.",
+                "h3": "Simple ecommerce",
+                "p": "An example of an online store made with Nextjs, TypeScript, Tailwindcss, Prisma, and Stripe as the payment processor.",
                 "technologies": [
                     "TypeScript",
                     "TailwindCSS",
@@ -84,8 +114,8 @@
             },
             {
                 "link": "https://github.com/MarcosCamara01/api-socialnetwork",
-                "h3": "Social Network API",
-                "p": "An API that interacts with a MongoDB server and has the functionality of a social network like Twitter.",
+                "h3": "Social network API",
+                "p": "An API that interacts with a MongoDB server and has the functionalities of a social network like Twitter.",
                 "technologies": [
                     "Node.js",
                     "Express",
@@ -95,7 +125,7 @@
             {
                 "link": "https://github.com/MarcosCamara01/api-blog",
                 "h3": "Blog API",
-                "p": "An API that interacts with a MongoDB server and has the functionality of a blog (such as create, delete, edit, or search).",
+                "p": "An API that interacts with a MongoDB server and has the functionalities of a blog (such as creating, deleting, editing, or searching).",
                 "technologies": [
                     "Node.js",
                     "Express",
@@ -105,7 +135,7 @@
             {
                 "link": "https://github.com/MarcosCamara01/portfolio-v1",
                 "h3": "Portfolio v1",
-                "p": "A simple portfolio created with HTML, CSS, and JavaScript where I described my experience as a web developer at that time.",
+                "p": "A simple portfolio created with HTML, CSS, and JavaScript that describes my experience as a web developer at that time.",
                 "technologies": [
                     "HTML",
                     "CSS",
@@ -115,7 +145,7 @@
             {
                 "link": "https://github.com/MarcosCamara01/blog-v1",
                 "h3": "Blog v1",
-                "p": "Simple blog created with HTML, CSS and JavaScript fully responsive and with the possibility of navigating between blog pages.",
+                "p": "A simple blog created with HTML, CSS, and JavaScript that is fully responsive and allows navigating between blog pages.",
                 "technologies": [
                     "HTML",
                     "CSS",
@@ -132,5 +162,5 @@
         "message": "Message",
         "button": "Submit"
     },
-    "footer": "Made with ❤️ by Marcos Cámara"
+    "footer": "Created by Marcos Cámara"
 }

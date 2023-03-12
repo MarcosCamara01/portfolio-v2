@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css';
@@ -21,6 +21,13 @@ i18next.init({
     }
   }
 })
+
+const handleLanguageChange = () => {
+  const currentLanguage = i18next.language;
+  document.documentElement.lang = currentLanguage;
+};
+
+i18next.on('languageChanged', handleLanguageChange);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

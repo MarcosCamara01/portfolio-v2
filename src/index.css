@@ -278,11 +278,11 @@ section .title-content::after {
 }
 
 .section-tabs .title-content::before {
-    content: "01.";
+    content: "02.";
 }
 
 .section-projects .title-content::before {
-    content: "02.";
+    content: "03.";
 }
 
 .section-proyects2 .title-content::before {
@@ -662,7 +662,7 @@ p {
     grid-column: 6 / -1;
     grid-row: 1 / -1;
     max-width: 500px;
-    border-radius: 4px;
+    border-radius: 5px;
 }
 
 .img-reverse {
@@ -889,7 +889,7 @@ p {
 .content .input-box {
     height: 50px;
     width: 100%;
-    margin: 16px 0;
+    margin-top: 16px;
     position: relative;
     display: flex;
     align-items: center;
@@ -943,6 +943,7 @@ p {
 .content .message-box {
     min-height: 100px;
     position: relative;
+    margin-top: 16px;
 }
 
 .content .message-box textarea {
@@ -1309,5 +1310,4 @@ p {
     .main-content {
         height: 320px;
     }
-
 }

@@ -9,7 +9,7 @@
         "h1": "Hola, me llamo",
         "h2": "Marcos Cámara",
         "h3": "Soy desarrollador web",
-        "p": "Estoy especializado en crear webs con react y frameworks relacionados. Actualmente estoy interesado en trabajar como freelance con personas que quieren crear sitios web increíbles."
+        "p": "Estoy especializado en crear webs con react y frameworks relacionados. Actualmente estoy interesado en trabajar como desarrollador frontend con personas o empresas que quieren crear aplicaciones web increíbles."
     },
     "verticaltabs": {
         "h2": "Tecnologias que domino",
@@ -62,9 +62,29 @@
         "view_more_button": "Ver Más",
         "content": [
             {
+                "link": "https://github.com/MarcosCamara01/next-job-description",
+                "h3": "NextJs job description",
+                "p": "Aplicación creada con NextJs, TailwindCSS y se conecta con la API de OpenAI.",
+                "technologies": [
+                    "NextJs",
+                    "OpenAI",
+                    "TailwindCSS"
+                ]
+            },
+            {
+                "link": "https://github.com/MarcosCamara01/nextjs-eccomerce",
+                "h3": "NextJs eccomerce",
+                "p": "Comercio electrónico creado con NextJs, un servidor usando MongoDB y Stripe como procesador de pagos. Diseño con la filosofía de mobile first.",
+                "technologies": [
+                    "NextJs",
+                    "MongoDB",
+                    "TailwindCSS"
+                ]
+            },
+            {
                 "link": "https://github.com/MarcosCamara01/portfolio-v1",
                 "h3": "Portafolio v2 (Actual)",
-                "p": "Portafolo totalmente responsive hecho con React, CSS y un sistema de traducción utilizando i18next y archivos JSON. SEO optimizado.",
+                "p": "Portafolio totalmente responsive hecho con React, CSS y un sistema de traducción utilizando i18next y archivos JSON. SEO optimizado.",
                 "technologies": [
                     "React",
                     "CSS",
@@ -72,8 +92,18 @@
                 ]
             },
             {
+                "link": "https://github.com/MarcosCamara01/weather-app",
+                "h3": "Weather app",
+                "p": "Aplicación de tiempo creado con react y obtiene información en tiempo real con la API de Weather API.",
+                "technologies": [
+                    "React",
+                    "CSS",
+                    "WeatherAPI"
+                ]
+            },
+            {
                 "link": "https://github.com/MarcosCamara01/eccomerce-test",
-                "h3": "Ejemplo de un eccomerce",
+                "h3": "Eccomerce simple",
                 "p": "Es un ejemplo de una tienda online hecho con Nextjs, Typescript, Tailwindcss, Prisma y Stripe como procesador de pagos.",
                 "technologies": [
                     "TypeScript",
@@ -84,7 +114,7 @@
             {
                 "link": "https://github.com/MarcosCamara01/api-socialnetwork",
                 "h3": "API red social",
-                "p": "Una API que interactua con un servidor de MongoDB y tiene las funcionalidades de una red social como Twitter.",
+                "p": "Una API que interactúa con un servidor de MongoDB y tiene las funcionalidades de una red social como Twitter.",
                 "technologies": [
                     "Node.js",
                     "Express",
@@ -94,7 +124,7 @@
             {
                 "link": "https://github.com/MarcosCamara01/api-blog",
                 "h3": "API blog",
-                "p": "Una API que interactua con un servidor de MongoDB y tiene las funcionalidades de un blog (como crear, borrar, editar o buscar).",
+                "p": "Una API que interactúa con un servidor de MongoDB y tiene las funcionalidades de un blog (como crear, borrar, editar o buscar).",
                 "technologies": [
                     "Node.js",
                     "Express",
@@ -131,5 +161,5 @@
         "message": "Mensaje",
         "button": "Enviar Mensaje"
     },
-    "footer": "Creado con ❤️ por Marcos Cámara"
+    "footer": "Creado por Marcos Cámara"
 }

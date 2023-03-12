@@ -28,7 +28,7 @@ export const Projects = () => {
                             </div>
                         </div>
                         <div className={`project-img ${index % 2 === 0 ? '' : 'img-reverse'}`}>
-                            <img src={'/img/' + t(project.img) + '.png'} alt={project.h4} />
+                            <img src={'./img/' + t(project.img) + '.png'} alt={project.h4} />
                         </div>
                     </div>
                 ))}

@@ -14,8 +14,8 @@ function VerticalTabs() {
         <div className="tabs">
           <span className={`tab tab-1 ${activeTab === 1 ? 'active' : ''}`} onClick={() => setActiveTab(1)}>JavaScript</span>
           <span className={`tab tab-2 ${activeTab === 2 ? 'active' : ''}`} onClick={() => setActiveTab(2)}>React</span>
-          <span className={`tab tab-3 ${activeTab === 3 ? 'active' : ''}`} onClick={() => setActiveTab(3)}>HTML & CSS</span>
-          <span className={`tab tab-4 ${activeTab === 4 ? 'active' : ''}`} onClick={() => setActiveTab(4)}>NodeJs</span>
+          <span className={`tab tab-3 ${activeTab === 3 ? 'active' : ''}`} onClick={() => setActiveTab(3)}>NodeJs</span>
+          <span className={`tab tab-4 ${activeTab === 4 ? 'active' : ''}`} onClick={() => setActiveTab(4)}>HTML & CSS</span>
           <span className="highlighter"></span>
         </div>
 
@@ -43,16 +43,16 @@ function VerticalTabs() {
           <div className={`content__section ${activeTab === 3 ? 'visible' : ''}`}>
             <div>
               <ul>
-                <li><a href="https://www.youtube.com/watch?v=kN1XP-Bef7w&list=PLE8uP447fYpiWxfqCnoHZx03zCsUAzDUW">{t("verticaltabs.html")}</a></li>
-                <li><a href="https://www.youtube.com/watch?v=OWKXEJN67FE&list=PLE8uP447fYpiWxfqCnoHZx03zCsUAzDUW&index=2">{t("verticaltabs.css")}</a></li>
+                <li><a href={'./pdf/' + "node1" + '.pdf'} target="_blank" >{t("verticaltabs.node")}</a></li>
+                <li><a href={'./pdf/' + "react2" + '.pdf'} target="_blank" >{t("verticaltabs.react1")}</a></li>
               </ul>
             </div>
           </div>
           <div className={`content__section ${activeTab === 4 ? 'visible' : ''}`}>
             <div>
               <ul>
-                <li><a href={'./pdf/' + "node1" + '.pdf'} target="_blank" >{t("verticaltabs.node")}</a></li>
-                <li><a href={'./pdf/' + "react2" + '.pdf'} target="_blank" >{t("verticaltabs.react1")}</a></li>
+                <li><a href="https://www.youtube.com/watch?v=kN1XP-Bef7w&list=PLE8uP447fYpiWxfqCnoHZx03zCsUAzDUW">{t("verticaltabs.html")}</a></li>
+                <li><a href="https://www.youtube.com/watch?v=OWKXEJN67FE&list=PLE8uP447fYpiWxfqCnoHZx03zCsUAzDUW&index=2">{t("verticaltabs.css")}</a></li>
               </ul>
             </div>
           </div>
