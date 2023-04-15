@@ -20,9 +20,9 @@ function App() {
       {/* CONTENIDO CENTRAL */}
       <main>
         <Home />
-        <VerticalTabs />
         <Projects />
         <OtherProjects />
+        <VerticalTabs />
         <Contact />
       </main>
 

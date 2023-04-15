@@ -27,8 +27,8 @@ export const Navbar = () => {
             </div>
             <nav className={clicked ? "responsive_nav" : ""}>
                 <a href="#home" onClick={() => setClicked(false)}>{t("header.home")}</a>
-                <a href="#skills" onClick={() => setClicked(false)}>{t("header.skills")}</a>
                 <a href="#projects" onClick={() => setClicked(false)}>{t("header.work")}</a>
+                <a href="#skills" onClick={() => setClicked(false)}>{t("header.skills")}</a>
                 <a href="#contact" onClick={() => setClicked(false)}>{t("header.contact")}</a>
             </nav>
 

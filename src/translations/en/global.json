@@ -9,7 +9,7 @@
         "h1": "Hi, my name is",
         "h2": "Marcos Cámara",
         "h3": "I'm a web developer",
-        "p": "I am specialized in creating websites with react and related frameworks. I am currently interested in working as a frontend developer with people or companies who want to create great websites.",
+        "p": "Specialized in building websites with React and related frameworks. Currently interested in working as a FrontEnd developer with people or companies that want to create amazing web applications.",
         "a": "Contact me!"
     },
     "verticaltabs": {
@@ -22,17 +22,43 @@
         "js4": "Asynchronous JavaScript - CodeCademy",
         "node": "Learn Node.js - CodeCademy",
         "react0": "Learn React - CodeCademy",
-        "react1": "Master en React- Víctor Robles",
-        "html": "HTML Course - SoyDalto",
-        "css": "CSS Course - SoyDalto"
+        "react1": "Master en React- Víctor Robles"
     },
     "projects": {
         "h2": "Things I've built",
         "content": [
             {
                 "project_type": "Featured project",
-                "h4": "Chpanth Blog",
-                "p": "Blog created with React, fully responsive in which you can interact with all pages, navigation menu and footer. SEO optimized.",
+                "h4": "Google Keep Clone",
+                "p": "Notes application that uses an API created with NodeJs that allows to interact and connect with the MongoDB server, the client side is created with React and CSS, which is compatible with all kinds of devices.",
+                "technologies": [
+                    "Node.js",
+                    "React",
+                    "MongoDB",
+                    "Express"
+                ],
+                "link_web": "https://keep-clone-1.web.app/",
+                "link_git": "https://github.com/MarcosCamara01/google-keep-clone",
+                "img": "GoogleKeepClone"
+            },
+            {
+                "project_type": "Featured project",
+                "h4": "Netflix Clone",
+                "p": "Netflix clone created with React and CSS, it uses the Themoviedb API to get the photos, description and titles of each of the movies. This application is fully adaptable to all types of screens.",
+                "technologies": [
+                    "React",
+                    "CSS",
+                    "ThemoviedbAPI",
+                    "Node.js"
+                ],
+                "link_web": "https://netflix-clone-fc3ae.web.app/",
+                "link_git": "https://github.com/MarcosCamara01/netflix-clone",
+                "img": "NetflixClone"
+            },
+            {
+                "project_type": "Featured project",
+                "h4": "Blog v2",
+                "p": "Blog created with React in which you can interact with all pages, navigation menu and footer. Optimized SEO and compatible with all types of devices.",
                 "technologies": [
                     "React",
                     "CSS",
@@ -41,20 +67,6 @@
                 "link_web": "https://chpanth.com/",
                 "link_git": "https://github.com/MarcosCamara01/blog-v2",
                 "img": "chpanth"
-            },
-            {
-                "project_type": "Featured project",
-                "h4": "Google Keep Clone",
-                "p": "Notes application that uses a MongoDB server and an API created with Nodejs and Express that allows interaction with the server, the client side is created with React and CSS.",
-                "technologies": [
-                    "Node.js",
-                    "React",
-                    "MongoDB",
-                    "Express"
-                ],
-                "link_web": "https://keep-clone-93106.web.app/",
-                "link_git": "https://github.com/MarcosCamara01/google-keep-clone",
-                "img": "GoogleKeepClone"
             }
         ]
     },
@@ -73,9 +85,20 @@
                 ]
             },
             {
+                "link": "https://github.com/MarcosCamara01/login-example",
+                "h3": "Login and register app",
+                "p": "The function of this application is to register, log in and securely store information on the server using Node.js and JWT.",
+                "technologies": [
+                    "Node.js",
+                    "React",
+                    "Express",
+                    "JWT"
+                ]
+            },
+            {
                 "link": "https://github.com/MarcosCamara01/nextjs-eccomerce",
                 "h3": "NextJs ecommerce",
-                "p": "Ecommerce created with NextJs, a server using MongoDB, and Stripe as the payment processor. Design with the mobile-first philosophy.",
+                "p": "E-commerce created with NextJs, a server using MongoDB and Stripe as payment processor. Designed with a mobile first philosophy.",
                 "technologies": [
                     "NextJs",
                     "MongoDB",
@@ -85,7 +108,7 @@
             {
                 "link": "https://github.com/MarcosCamara01/portfolio-v1",
                 "h3": "Portfolio v2 (Current)",
-                "p": "Fully responsive portfolio made with React, CSS, and a translation system using i18next and JSON files. SEO optimized.",
+                "p": "Fully responsive portfolio made with React, CSS and a translation system using i18next and JSON files. SEO optimized.",
                 "technologies": [
                     "React",
                     "CSS",
@@ -95,7 +118,7 @@
             {
                 "link": "https://github.com/MarcosCamara01/weather-app",
                 "h3": "Weather app",
-                "p": "Weather application created with React that obtains real-time information with the Weather API.",
+                "p": "Weather application created with React and gets real-time information with the Weather API.",
                 "technologies": [
                     "React",
                     "CSS",
@@ -105,7 +128,7 @@
             {
                 "link": "https://github.com/MarcosCamara01/eccomerce-test",
                 "h3": "Simple ecommerce",
-                "p": "An example of an online store made with Nextjs, TypeScript, Tailwindcss, Prisma, and Stripe as the payment processor.",
+                "p": "This is an example of an e-commerce site made with Nextjs, Typescript, Tailwindcss, Prisma and Stripe as payment processor.",
                 "technologies": [
                     "TypeScript",
                     "TailwindCSS",
@@ -115,7 +138,7 @@
             {
                 "link": "https://github.com/MarcosCamara01/api-socialnetwork",
                 "h3": "Social network API",
-                "p": "An API that interacts with a MongoDB server and has the functionalities of a social network like Twitter.",
+                "p": "An API that interacts with a MongoDB server and has the functionalities of a social network such as Twitter.",
                 "technologies": [
                     "Node.js",
                     "Express",
@@ -125,7 +148,7 @@
             {
                 "link": "https://github.com/MarcosCamara01/api-blog",
                 "h3": "Blog API",
-                "p": "An API that interacts with a MongoDB server and has the functionalities of a blog (such as creating, deleting, editing, or searching).",
+                "p": "An API that interacts with a MongoDB server and has the functionalities of a blog (such as create, delete, edit or search).",
                 "technologies": [
                     "Node.js",
                     "Express",
@@ -135,7 +158,7 @@
             {
                 "link": "https://github.com/MarcosCamara01/portfolio-v1",
                 "h3": "Portfolio v1",
-                "p": "A simple portfolio created with HTML, CSS, and JavaScript that describes my experience as a web developer at that time.",
+                "p": "A simple portfolio created with HTML, CSS and JavaScript describing my experience as a web developer at the time.",
                 "technologies": [
                     "HTML",
                     "CSS",
@@ -145,7 +168,7 @@
             {
                 "link": "https://github.com/MarcosCamara01/blog-v1",
                 "h3": "Blog v1",
-                "p": "A simple blog created with HTML, CSS, and JavaScript that is fully responsive and allows navigating between blog pages.",
+                "p": "Simple blog created with HTML, CSS and JavaScript, fully responsive and with the possibility of navigating between the pages.",
                 "technologies": [
                     "HTML",
                     "CSS",
@@ -155,12 +178,12 @@
         ]
     },
     "contact": {
-        "h2": "Contact",
+        "h2": "contact",
         "msg": "Send me a message",
         "name": "Name",
         "email": "Email",
         "message": "Message",
-        "button": "Submit"
+        "button": "Send Message"
     },
     "footer": "Created by Marcos Cámara"
 }

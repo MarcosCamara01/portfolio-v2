@@ -247,9 +247,9 @@ section .title-content {
     -webkit-box-align: center;
     align-items: center;
     position: relative;
-    margin: 10px 0px 40px;
+    margin: 10px 0px 50px;
     width: 100%;
-    font-size: clamp(26px, 5vw, 30px);
+    font-size: clamp(24px, 5vw, 30px);
     white-space: nowrap;
     color: #ccd6f6;
 }
@@ -278,15 +278,15 @@ section .title-content::after {
 }
 
 .section-tabs .title-content::before {
-    content: "02.";
+    content: "03.";
 }
 
 .section-projects .title-content::before {
-    content: "03.";
+    content: "02.";
 }
 
 .section-proyects2 .title-content::before {
-    content: "03.";
+    content: "02.";
 }
 
 .section-contact .title-content::before {
@@ -308,7 +308,7 @@ section .title-content::after {
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
     font-size: clamp(14px, 5vw, 16px);
-    margin: 0 0 10px 4px;
+    margin: 0 0 10px 6px;
 }
 
 .main-content h2 {
@@ -327,7 +327,7 @@ section .title-content::after {
 .main-content p {
     margin-top: 30px;
     max-width: 540px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 span {
@@ -436,6 +436,7 @@ p {
     opacity: 0;
     z-index: 0;
     transition: opacity 0s ease;
+    pointer-events: none;
 }
 
 .container .content__section.visible {
@@ -446,6 +447,7 @@ p {
     width: 100%;
     height: auto;
     padding: 5px;
+    pointer-events: all;
 }
 
 .container .content h3 {
@@ -527,7 +529,7 @@ p {
 
 .project-content {
     position: relative;
-    grid-column: 1 / 7;
+    grid-column: 1 / 8;
     grid-row: 1 / -1;
 }
 
@@ -659,7 +661,7 @@ p {
     position: relative;
     z-index: -1;
     background-color: #64ffda;
-    grid-column: 6 / -1;
+    grid-column: 7 / -1;
     grid-row: 1 / -1;
     max-width: 500px;
     border-radius: 5px;
@@ -737,7 +739,6 @@ p {
 /* Other Projects */
 .projects-grid {
     padding: 0px;
-    margin: 50px 0px 0px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 15px;
@@ -906,7 +907,6 @@ p {
     padding-left: 16px;
     background: transparent;
     border: 1px solid #233554;
-    ;
     transition: all 0.3s ease;
     color: #a8b2d1;
 }
@@ -1239,6 +1239,10 @@ p {
 @media (max-width: 480px) {
     main {
         padding: 0px 25px;
+    }
+
+    .main-content h1 {
+        margin: 0 0 10px 2px;
     }
 
     section {
