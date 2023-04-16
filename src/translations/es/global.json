@@ -118,7 +118,7 @@
             {
                 "link": "https://github.com/MarcosCamara01/weather-app",
                 "h3": "Weather app",
-                "p": "Aplicación de tiempo creado con React, obtiene información en tiempo real con la API de Weather API.",
+                "p": "Aplicación de tiempo creada con React, obtiene información en tiempo real con la API de Weather API.",
                 "technologies": [
                     "React",
                     "CSS",

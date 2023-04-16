@@ -30,7 +30,7 @@
             {
                 "project_type": "Featured project",
                 "h4": "Google Keep Clone",
-                "p": "Notes application that uses an API created with NodeJs that allows to interact and connect with the MongoDB server, the client side is created with React and CSS, which is compatible with all kinds of devices.",
+                "p": "Note application which uses an API created with NodeJs that allows to interact and connect with the MongoDB server, the client side is created with React and CSS, which is compatible with all types of devices.",
                 "technologies": [
                     "Node.js",
                     "React",
