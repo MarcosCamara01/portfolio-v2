@@ -26,7 +26,21 @@
     "projects": {
         "h2": "Proyectos destacados",
         "content": [
-            
+
+            {
+                "project_type": "Proyecto destacado",
+                "h4": "Twitter Clone",
+                "p": "Blog creado con React en el que se puede interactuar con todas las páginas, menú de navegación y pie de página. SEO optimizado y compatible con todo tipo de dispositivos.",
+                "technologies": [
+                    "React",
+                    "Node.js",
+                    "MongoDB",
+                    "CSS"
+                ],
+                "link_web": "https://chpanth.com/",
+                "link_git": "https://github.com/MarcosCamara01/blog-v2",
+                "img": "chpanth"
+            },
             {
                 "project_type": "Proyecto destacado",
                 "h4": "Google Keep Clone",
@@ -54,26 +68,23 @@
                 "link_web": "https://netflix-clone-fc3ae.web.app/",
                 "link_git": "https://github.com/MarcosCamara01/netflix-clone",
                 "img": "NetflixClone"
-            },
-            {
-                "project_type": "Proyecto destacado",
-                "h4": "Blog v2",
-                "p": "Blog creado con React en el que se puede interactuar con todas las páginas, menú de navegación y pie de página. SEO optimizado y compatible con todo tipo de dispositivos.",
-                "technologies": [
-                    "React",
-                    "CSS",
-                    "JSON"
-                ],
-                "link_web": "https://chpanth.com/",
-                "link_git": "https://github.com/MarcosCamara01/blog-v2",
-                "img": "chpanth"
-            }
+            }        
         ]
     },
     "other_projects": {
         "h2": "Otros proyectos",
         "view_more_button": "Ver Más",
         "content": [
+            {
+                "link": "https://github.com/MarcosCamara01/next-job-description",
+                "h3": "Blog v2",
+                "p": "Blog creado con React en el que se puede interactuar con todas las páginas y es compatible con todo tipo de dispositivos.",
+                "technologies": [
+                    "React",
+                    "CSS",
+                    "JSON"
+                ]
+            },
             {
                 "link": "https://github.com/MarcosCamara01/next-job-description",
                 "h3": "NextJs job description",
