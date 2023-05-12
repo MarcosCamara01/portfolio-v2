@@ -39,12 +39,12 @@
                 ],
                 "link_web": "https://chpanth.com/",
                 "link_git": "https://github.com/MarcosCamara01/blog-v2",
-                "img": "chpanth"
+                "img": "TwitterClone"
             },
             {
                 "project_type": "Proyecto destacado",
                 "h4": "Google Keep Clone",
-                "p": "Aplicación de notas que utiliza una API creada con NodeJs que permite interactuar y conectarse con el servidor de MongoDB, el lado del cliente está creado con React y CSS, el cual es compatible con todo tipo de dispositivos.",
+                "p": "Aplicación de notas que utiliza una API creada con NodeJs para interactuar y conectarse con el servidor de MongoDB. El lado del cliente está creado con React y CSS, el cual es compatible con todo tipo de dispositivos.",
                 "technologies": [
                     "Node.js",
                     "React",

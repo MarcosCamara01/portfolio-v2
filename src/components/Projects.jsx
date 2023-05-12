@@ -13,7 +13,7 @@ export const Projects = () => {
                     <div key={project.h4} className="project">
                         <div className={`project-content ${index % 2 === 0 ? '' : 'project-reverse'}`}>
                             <div className="project-label">{t(project.project_type)}</div>
-                            <h4 className="project-title">{t(project.h4)}</h4>
+                            <a href={t(project.link_web)} target="_blank"><h4 className="project-title">{t(project.h4)}</h4></a>
                             <div className="project-details">
                                 <p>{t(project.p)}</p>
                                 <ul>
