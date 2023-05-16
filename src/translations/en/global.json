@@ -9,7 +9,7 @@
         "h1": "Hi, my name is",
         "h2": "Marcos Cámara",
         "h3": "I'm a web developer",
-        "p": "Specialized in building websites with React and related frameworks. Currently interested in working as a FrontEnd developer with people or companies that want to create amazing web applications.",
+        "p": "Specialized in building websites with React and JavaScript. Currently interested in working as a front-end developer with people or companies that want to create amazing web applications.",
         "a": "Contact me!"
     },
     "verticaltabs": {
@@ -29,17 +29,17 @@
         "content": [
             {
                 "project_type": "Featured project",
-                "h4": "Google Keep Clone",
-                "p": "Note application which uses an API created with NodeJs that allows to interact and connect with the MongoDB server, the client side is created with React and CSS, which is compatible with all types of devices.",
+                "h4": "Twitter Clone",
+                "p": "This app simulates many of the functions of a social network like Twitter. The back-end is built with Node.js to interact and connect with a MongoDB server, the client side is built with React and CSS, which is fully compatible with all kinds of devices.",
                 "technologies": [
-                    "Node.js",
                     "React",
+                    "Node.js",
                     "MongoDB",
-                    "Express"
+                    "CSS"
                 ],
-                "link_web": "https://keep-clone-1.web.app/",
-                "link_git": "https://github.com/MarcosCamara01/google-keep-clone",
-                "img": "GoogleKeepClone"
+                "link_web": "https://twitter-clone-aca36.web.app/",
+                "link_git": "https://github.com/MarcosCamara01/twitter-clone",
+                "img": "TwitterClone"
             },
             {
                 "project_type": "Featured project",
@@ -57,16 +57,17 @@
             },
             {
                 "project_type": "Featured project",
-                "h4": "Blog v2",
-                "p": "Blog created with React in which you can interact with all pages, navigation menu and footer. Optimized SEO and compatible with all types of devices.",
+                "h4": "Google Keep Clone",
+                "p": "Note application which uses an API created with NodeJs that allows to interact and connect with the MongoDB server, the client side is created with React and CSS, which is compatible with all types of devices.",
                 "technologies": [
+                    "Node.js",
                     "React",
-                    "CSS",
-                    "JSON"
+                    "MongoDB",
+                    "Express"
                 ],
-                "link_web": "https://chpanth.com/",
-                "link_git": "https://github.com/MarcosCamara01/blog-v2",
-                "img": "chpanth"
+                "link_web": "https://keep-clone-1.web.app/",
+                "link_git": "https://github.com/MarcosCamara01/google-keep-clone",
+                "img": "GoogleKeepClone"
             }
         ]
     },
@@ -74,6 +75,16 @@
         "h2": "Other Projects",
         "view_more_button": "Show More",
         "content": [
+            {
+                "link": "https://github.com/MarcosCamara01/blog-v2",
+                "h3": "Blog v2",
+                "p": "Blog created with React in which you can interact with all the pages and is compatible with all types of devices.",
+                "technologies": [
+                    "React",
+                    "CSS",
+                    "JSON"
+                ]
+            },
             {
                 "link": "https://github.com/MarcosCamara01/next-job-description",
                 "h3": "NextJs job description",

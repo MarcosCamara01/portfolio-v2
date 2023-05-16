@@ -9,7 +9,7 @@
         "h1": "Hola, me llamo",
         "h2": "Marcos Cámara",
         "h3": "Soy desarrollador web",
-        "p": "Estoy especializado en la creación de sitios web con React y frameworks relacionados. Actualmente interesado en trabajar como desarrollador frontend con personas o empresas que quieran crear aplicaciones web increíbles."
+        "p": "Estoy especializado en la creación de sitios web con React y JavaScript. Actualmente interesado en trabajar como desarrollador front-end con personas o empresas que quieran crear aplicaciones web increíbles."
     },
     "verticaltabs": {
         "h2": "Tecnologías que domino",
@@ -26,34 +26,19 @@
     "projects": {
         "h2": "Proyectos destacados",
         "content": [
-
             {
                 "project_type": "Proyecto destacado",
                 "h4": "Twitter Clone",
-                "p": "Blog creado con React en el que se puede interactuar con todas las páginas, menú de navegación y pie de página. SEO optimizado y compatible con todo tipo de dispositivos.",
+                "p": "Esta aplicación simula muchas de las funciones de una red social como Twitter. El back-end está construido con Node.js para poder interactuar y conectarse con un servidor MongoDB, el lado cliente está construido con React y CSS, el cual es totalmente compatible con todo tipo de dispositivos.",
                 "technologies": [
                     "React",
                     "Node.js",
                     "MongoDB",
                     "CSS"
                 ],
-                "link_web": "https://chpanth.com/",
-                "link_git": "https://github.com/MarcosCamara01/blog-v2",
+                "link_web": "https://twitter-clone-aca36.web.app/",
+                "link_git": "https://github.com/MarcosCamara01/twitter-clone",
                 "img": "TwitterClone"
-            },
-            {
-                "project_type": "Proyecto destacado",
-                "h4": "Google Keep Clone",
-                "p": "Aplicación de notas que utiliza una API creada con NodeJs para interactuar y conectarse con el servidor de MongoDB. El lado del cliente está creado con React y CSS, el cual es compatible con todo tipo de dispositivos.",
-                "technologies": [
-                    "Node.js",
-                    "React",
-                    "MongoDB",
-                    "Express"
-                ],
-                "link_web": "https://keep-clone-1.web.app/",
-                "link_git": "https://github.com/MarcosCamara01/google-keep-clone",
-                "img": "GoogleKeepClone"
             },
             {
                 "project_type": "Proyecto destacado",
@@ -68,7 +53,21 @@
                 "link_web": "https://netflix-clone-fc3ae.web.app/",
                 "link_git": "https://github.com/MarcosCamara01/netflix-clone",
                 "img": "NetflixClone"
-            }        
+            },
+            {
+                "project_type": "Proyecto destacado",
+                "h4": "Google Keep Clone",
+                "p": "Aplicación de notas que utiliza una API creada con NodeJs para interactuar y conectarse con el servidor de MongoDB. El lado del cliente está creado con React y CSS, el cual es compatible con todo tipo de dispositivos.",
+                "technologies": [
+                    "Node.js",
+                    "React",
+                    "MongoDB",
+                    "Express"
+                ],
+                "link_web": "https://keep-clone-1.web.app/",
+                "link_git": "https://github.com/MarcosCamara01/google-keep-clone",
+                "img": "GoogleKeepClone"
+            }
         ]
     },
     "other_projects": {
@@ -76,7 +75,7 @@
         "view_more_button": "Ver Más",
         "content": [
             {
-                "link": "https://github.com/MarcosCamara01/next-job-description",
+                "link": "https://github.com/MarcosCamara01/blog-v2",
                 "h3": "Blog v2",
                 "p": "Blog creado con React en el que se puede interactuar con todas las páginas y es compatible con todo tipo de dispositivos.",
                 "technologies": [

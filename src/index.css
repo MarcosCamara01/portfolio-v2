@@ -561,10 +561,6 @@ p {
     transition: all 0.2s ease;
 }
 
-.project-content .project-title:hover {
-    color: #64ffda;
-}
-
 .project-reverse .project-title {
     text-align: end;
 }

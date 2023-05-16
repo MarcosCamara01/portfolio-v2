@@ -6,6 +6,6 @@ export const Footer = () => {
   const [t] = useTranslation("global");
 
   return (
-    <div className='content-footer'><a href="https://github.com/MarcosCamara01">{t("footer")}</a></div>
+    <div className='content-footer'><a href="https://github.com/MarcosCamara01" target="_blank">{t("footer")}</a></div>
   )
 }
