@@ -531,6 +531,7 @@ p {
     position: relative;
     grid-column: 1 / 8;
     grid-row: 1 / -1;
+    z-index: 4;
 }
 
 .project-reverse {
@@ -663,7 +664,6 @@ p {
 
 .project-img {
     position: relative;
-    z-index: -1;
     background-color: #64ffda;
     grid-column: 7 / -1;
     grid-row: 1 / -1;

@@ -13,7 +13,7 @@ export const Projects = () => {
                     <div key={project.h4} className="project">
                         <div className={`project-content ${index % 2 === 0 ? '' : 'project-reverse'}`}>
                             <div className="project-label">{t(project.project_type)}</div>
-                            <a href={t(project.link_web)} target="_blank"><h4 className="project-title">{t(project.h4)}</h4></a>
+                            <h4 className="project-title">{t(project.h4)}</h4>
                             <div className="project-details">
                                 <p>{t(project.p)}</p>
                                 <ul>
@@ -27,9 +27,9 @@ export const Projects = () => {
                                 <a href={t(project.link_git)} target="_blank"><i className='bx bxl-github' ></i></a>
                             </div>
                         </div>
-                        <div className={`project-img ${index % 2 === 0 ? '' : 'img-reverse'}`}>
+                        <a href={t(project.link_web)} target="_blank" rel="noopener noreferrer" className={`project-img ${index % 2 === 0 ? '' : 'img-reverse'}`}>
                             <img src={'./img/' + t(project.img) + '.png'} alt={project.h4} />
-                        </div>
+                        </a>
                     </div>
                 ))}
             </div>
