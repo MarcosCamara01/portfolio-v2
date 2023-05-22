@@ -189,7 +189,7 @@
         ]
     },
     "contact": {
-        "h2": "contact",
+        "h2": "Contact",
         "msg": "Send me a message",
         "name": "Name",
         "email": "Email",
