@@ -95,7 +95,7 @@
                 ]
             },
             {
-                "link": "https://github.com/MarcosCamara01/next-job-description",
+                "link": "https://github.com/MarcosCamara01/login-example",
                 "h3": "Login and register app",
                 "p": "La función de esta aplicación es registrarse, iniciar sesión y almacenar de forma segura la información en el servidor usando Node.js y JWT.",
                 "technologies": [
@@ -116,7 +116,7 @@
                 ]
             },
             {
-                "link": "https://github.com/MarcosCamara01/portfolio-v1",
+                "link": "https://github.com/MarcosCamara01/portfolio-v2",
                 "h3": "Portafolio v2 (Actual)",
                 "p": "Portafolio con un diseño web adaptable hecho con React, CSS y un sistema de traducción utilizando i18next y archivos JSON. SEO optimizado.",
                 "technologies": [

@@ -117,7 +117,7 @@
                 ]
             },
             {
-                "link": "https://github.com/MarcosCamara01/portfolio-v1",
+                "link": "https://github.com/MarcosCamara01/portfolio-v2",
                 "h3": "Portfolio v2 (Current)",
                 "p": "Fully responsive portfolio made with React, CSS and a translation system using i18next and JSON files. SEO optimized.",
                 "technologies": [
