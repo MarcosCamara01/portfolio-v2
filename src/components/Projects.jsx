@@ -28,7 +28,7 @@ export const Projects = () => {
                             </div>
                         </div>
                         <a href={t(project.link_web)} target="_blank" rel="noopener noreferrer" className={`project-img ${index % 2 === 0 ? '' : 'img-reverse'}`}>
-                            <img src={'./img/' + t(project.img) + '.webp'} alt={project.h4} />
+                            <img src={'./img/' + t(project.img) + '.png'} alt={project.h4} />
                         </a>
                     </div>
                 ))}
