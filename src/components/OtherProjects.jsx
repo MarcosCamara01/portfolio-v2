@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from "react-i18next";
+import { FiFolder } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
 
 export const OtherProjects = () => {
     const { t } = useTranslation("global");
@@ -20,10 +22,10 @@ export const OtherProjects = () => {
                             <a href={t(project.link)} target="_blank">
                                 <div className='project-top'>
                                     <div className='folder'>
-                                        <i className='bx bx-folder'></i>
+                                        <FiFolder />
                                     </div>
                                     <div className='project-links'>
-                                        <i className='bx bxl-github'></i>
+                                        <FiGithub />
                                     </div>
                                 </div>
                                 <div className='project-mid'>

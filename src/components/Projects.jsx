@@ -1,5 +1,7 @@
 import React from 'react';
 import { useTranslation } from "react-i18next";
+import { FiExternalLink } from "react-icons/fi";
+import { FiGithub } from "react-icons/fi";
 
 export const Projects = () => {
 
@@ -23,8 +25,8 @@ export const Projects = () => {
                                 </ul>
                             </div>
                             <div className='projects-links'>
-                                <a href={t(project.link_web)} target="_blank"><i className='bx bx-link-external'></i></a>
-                                <a href={t(project.link_git)} target="_blank"><i className='bx bxl-github' ></i></a>
+                                <a href={t(project.link_web)} target="_blank"><FiExternalLink /></a>
+                                <a href={t(project.link_git)} target="_blank"><FiGithub /></a>
                             </div>
                         </div>
                         <a href={t(project.link_web)} target="_blank" rel="noopener noreferrer" className={`project-img ${index % 2 === 0 ? '' : 'img-reverse'}`}>

@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import BurguerButton from "./BurguerButton";
 import { useTranslation } from "react-i18next";
+import { HiOutlineCode } from "react-icons/hi";
+
 
 export const Navbar = () => {
 
@@ -23,7 +25,7 @@ export const Navbar = () => {
     return (
         <header>
             <div className="logo-bx">
-                <a href="#home"><i className='bx bx-code-alt'></i></a>
+                <a href="#home"><HiOutlineCode /></a>
             </div>
             <nav className={clicked ? "responsive_nav" : ""}>
                 <a href="#home" onClick={() => setClicked(false)}>{t("header.home")}</a>
