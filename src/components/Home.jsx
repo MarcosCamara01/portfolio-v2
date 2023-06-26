@@ -25,9 +25,9 @@ export const Home = () => {
     return (
         <section className='section-home' id='home'>
             <div className="main-content">
+                <h3>{t("home.h3")}</h3>
                 <h1>{t("home.h1")}</h1>
                 <h2>{t("home.h2")}</h2>
-                <h3>{t("home.h3")}</h3>
                 <p>
                     {t("home.p")}
                 </p>

@@ -282,7 +282,7 @@ section .title-content::after {
     align-items: flex-start;
 }
 
-.main-content h1 {
+.main-content h3 {
     color: #64ffda;
     font-family: 'Roboto Mono', monospace;
     font-weight: 300;
@@ -290,13 +290,13 @@ section .title-content::after {
     margin: 0 0 10px 6px;
 }
 
-.main-content h2 {
+.main-content h1 {
     font-size: clamp(30px, 8vw, 80px);
     color: #ccd6f6;
     line-height: 1.1;
 }
 
-.main-content h3 {
+.main-content h2 {
     font-size: clamp(25px, 8vw, 80px);
     color: #8892b0;
     margin-top: 5px;
@@ -1261,7 +1261,7 @@ p {
         padding: 0px 25px;
     }
 
-    .main-content h1 {
+    .main-content h3 {
         margin: 0 0 10px 2px;
     }
 
