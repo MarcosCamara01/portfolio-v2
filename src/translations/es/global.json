@@ -67,6 +67,20 @@
                 "link_web": "https://keep-clone-1.web.app/",
                 "link_git": "https://github.com/MarcosCamara01/google-keep-clone",
                 "img": "GoogleKeepClone"
+            },
+            {
+                "project_type": "Proyecto destacado",
+                "h4": "ChatGPT Clone",
+                "p": "Aplicación de notas que utiliza una API creada con NodeJs para interactuar y conectarse con el servidor de MongoDB. El lado del cliente está creado con React y CSS, el cual es compatible con todo tipo de dispositivos.",
+                "technologies": [
+                    "NextJs",
+                    "React",
+                    "CSS",
+                    "AISDK"
+                ],
+                "link_web": "https://chatgpt-clone-six-ochre.vercel.app/",
+                "link_git": "https://github.com/MarcosCamara01/chatgpt-clone",
+                "img": "ChatGPTClone"
             }
         ]
     },
@@ -74,6 +88,17 @@
         "h2": "Otros proyectos",
         "view_more_button": "Ver Más",
         "content": [
+            {
+                "link": "https://github.com/MarcosCamara01/AI-SDK-next.js",
+                "h3": "AI-SDK NextJs",
+                "p": "Blog creado con React en el que se puede interactuar con todas las páginas y es compatible con todo tipo de dispositivos.",
+                "technologies": [
+                    "NextJs",
+                    "React",
+                    "CSS",
+                    "AISDK"
+                ]
+            },
             {
                 "link": "https://github.com/MarcosCamara01/blog-v2",
                 "h3": "Blog v2",
