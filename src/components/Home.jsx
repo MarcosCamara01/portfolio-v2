@@ -45,7 +45,7 @@ export const Home = () => {
 
                         <div className={`options ${isOpen ? 'active' : ''}`}>
                             <button className="option" onClick={() => handleOptionClick({ text: "English", img: uk })}>
-                                <div className="content-option" onClick={ () => i18n.changeLanguage("en")}>
+                                <div className="content-option" onClick={() => i18n.changeLanguage("en")}>
                                     <img src={uk} alt="" />
                                     <div className="texts">
                                         <span className="title">English</span>
@@ -53,7 +53,7 @@ export const Home = () => {
                                 </div>
                             </button>
                             <button href="#" className="option" onClick={() => handleOptionClick({ text: "Español", img: spain })}>
-                                <div className="content-option" onClick={ () => i18n.changeLanguage("es")}>
+                                <div className="content-option" onClick={() => i18n.changeLanguage("es")}>
                                     <img src={spain} alt="" />
                                     <div className="texts">
                                         <span className="title">Español</span>
