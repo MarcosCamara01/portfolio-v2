@@ -96,7 +96,7 @@ main {
     border-radius: 2px;
     transition: .2s cubic-bezier(.8, .5, .2, 1.4);
     height: 4px;
-    transition-duration: 500ms
+    transition-duration: 200ms;
 }
 
 .nav-icon-5 span:nth-child(1) {
