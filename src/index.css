@@ -453,7 +453,7 @@ p {
 }
 
 .container .content__section ul li a {
-    transition: all .3s ease;
+    transition: all .25s ease;
     position: relative;
 }
 

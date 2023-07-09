@@ -22,7 +22,8 @@
         "js4": "Asynchronous JavaScript - CodeCademy",
         "node": "Learn Node.js - CodeCademy",
         "react0": "Learn React - CodeCademy",
-        "react1": "Master en React- Víctor Robles"
+        "react1": "Master en React- Víctor Robles",
+        "typescript": "TypeScript - Microsoft Learn"
     },
     "projects": {
         "h2": "Things I've built",
