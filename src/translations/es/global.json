@@ -90,6 +90,16 @@
         "view_more_button": "Ver Más",
         "content": [
             {
+                "link": "https://github.com/MarcosCamara01/google-translate-clone",
+                "h3": "Google Translate Clone",
+                "p": "Aplicación creada con TypeScript, React y utiliza la API de OpenAI para traducir texto en cualquier idioma.",
+                "technologies": [
+                    "TypeScript",
+                    "React",
+                    "OpenAI API"
+                ]
+            },
+            {
                 "link": "https://github.com/MarcosCamara01/AI-SDK-next.js",
                 "h3": "AI-SDK NextJs",
                 "p": "Aplicación creada con NextJS y que que utiliza vercel AI SDK para hacer streaming de el texto que genera GPT 3.5",

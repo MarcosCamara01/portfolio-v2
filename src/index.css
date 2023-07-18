@@ -954,6 +954,13 @@ p {
     position: relative;
 }
 
+.socialmedia ul li a span {
+    color: #a8b2d1;
+    font-weight: 700;
+    transition: all 0.2s ease;
+    font-family: 'Roboto Mono', monospace;
+}
+
 .socialmedia ul li:last-child {
     padding-bottom: 20px;
 }
@@ -964,6 +971,7 @@ p {
     transition: all 0.2s ease;
 }
 
+.socialmedia ul li a:hover span,
 .socialmedia ul li a:hover svg,
 .emailcontact span:hover {
     color: #64ffda;
