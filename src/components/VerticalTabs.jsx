@@ -7,6 +7,21 @@ function VerticalTabs() {
 
   const [activeTab, setActiveTab] = useState(1);
 
+  const verticaltabs = (content) => {
+    return (
+      t(`verticaltabs.${content}`, { returnObjects: true }).map((course, index) => (
+        <li key={index}>
+          <a
+            href={course.link}
+            target="_blank"
+          >
+            {course.title}
+          </a>
+        </li>
+      ))
+    )
+  }
+
   return (
     <section className='section-tabs' id='skills'>
       <h2 className='title-content'>{t("verticaltabs.h2")}</h2>
@@ -24,74 +39,28 @@ function VerticalTabs() {
           <div className={`content__section ${activeTab === 1 ? 'visible' : ''}`}>
             <div>
               <ul>
-                <li><a
-                  href={'./pdf/' + "js1" + '.pdf'}
-                  target="_blank" >
-                  {t("verticaltabs.js0")}
-                </a></li>
-                <li><a
-                  href={'./pdf/' + "js2" + '.pdf'}
-                  target="_blank" >
-                  {t("verticaltabs.js1")}
-                </a></li>
-                <li><a
-                  href={'./pdf/' + "js3" + '.pdf'}
-                  target="_blank" >
-                  {t("verticaltabs.js2")
-                  }</a></li>
-                <li><a
-                  href={'./pdf/' + "jsErrors" + '.pdf'}
-                  target="_blank" >
-                  {t("verticaltabs.js3")}
-                </a></li>
-                <li><a
-                  href={'./pdf/' + "asyncJavaScript" + '.pdf'}
-                  target="_blank" >
-                  {t("verticaltabs.js4")}
-                </a></li>
+                {verticaltabs("contentJS")}
               </ul>
             </div>
           </div>
           <div className={`content__section ${activeTab === 2 ? 'visible' : ''}`}>
             <div>
               <ul>
-                <li><a
-                  href={'./pdf/' + "react1" + '.pdf'}
-                  target="_blank" >
-                  {t("verticaltabs.react0")}
-                </a></li>
-                <li><a
-                  href={'./pdf/' + "react2" + '.pdf'}
-                  target="_blank" >
-                  {t("verticaltabs.react1")}
-                </a></li>
+                {verticaltabs("contentReact")}
               </ul>
             </div>
           </div>
           <div className={`content__section ${activeTab === 3 ? 'visible' : ''}`}>
             <div>
               <ul>
-                <li><a
-                  href="https://learn.microsoft.com/es-es/training/achievements/learn.language.build-javascript-applications-typescript.trophy?username=MarcosPenelasCamara-8041&sharingId=BFA4BCCFCDD52396"
-                  target="_blank" >
-                  {t("verticaltabs.typescript")}
-                </a></li>
+                {verticaltabs("contentTS")}
               </ul>
             </div>
           </div>
           <div className={`content__section ${activeTab === 4 ? 'visible' : ''}`}>
             <div>
               <ul>
-                <li><a
-                  href={'./pdf/' + "node1" + '.pdf'}
-                  target="_blank" >
-                  {t("verticaltabs.node")}
-                </a></li>
-                <li><a
-                  href={'./pdf/' + "react2" + '.pdf'}
-                  target="_blank" >
-                  {t("verticaltabs.react1")}
-                </a></li>
+                {verticaltabs("contentNode")}
               </ul>
             </div>
           </div>
