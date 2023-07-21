@@ -7,19 +7,31 @@ function VerticalTabs() {
 
   const [activeTab, setActiveTab] = useState(1);
 
-  const verticaltabs = (content) => {
+  const verticaltabs = (content, number) => {
     return (
-      t(`verticaltabs.${content}`, { returnObjects: true }).map((course, index) => (
-        <li key={index}>
-          <a
-            href={course.link}
-            target="_blank"
-          >
-            {course.title}
-          </a>
-        </li>
-      ))
+      <div className={`content__section ${activeTab === number ? 'visible' : ''}`}>
+        <div>
+          <ul>
+            {
+              t(`verticaltabs.${content}`, { returnObjects: true }).map((course, index) => (
+                <li key={index}>
+                  <a
+                    href={course.link}
+                    target="_blank"
+                  >
+                    {course.title}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </div>
     )
+  }
+
+  const tab = (tech, number) => {
+    return <span className={`tab tab-${number} ${activeTab === number ? 'active' : ''}`} onClick={() => setActiveTab(number)}>{tech}</span>
   }
 
   return (
@@ -27,43 +39,19 @@ function VerticalTabs() {
       <h2 className='title-content'>{t("verticaltabs.h2")}</h2>
       <div className="container">
         <div className="tabs">
-          <span className={`tab tab-1 ${activeTab === 1 ? 'active' : ''}`} onClick={() => setActiveTab(1)}>JavaScript</span>
-          <span className={`tab tab-2 ${activeTab === 2 ? 'active' : ''}`} onClick={() => setActiveTab(2)}>React</span>
-          <span className={`tab tab-3 ${activeTab === 3 ? 'active' : ''}`} onClick={() => setActiveTab(3)}>TypeScript</span>
-          <span className={`tab tab-4 ${activeTab === 4 ? 'active' : ''}`} onClick={() => setActiveTab(4)}>NodeJs</span>
+          {tab("JavaScript", 1)}
+          {tab("React", 2)}
+          {tab("TypeScript", 3)}
+          {tab("NodeJs", 4)}
           <span className="highlighter"></span>
         </div>
 
         <div className="content">
           <h3>{t("verticaltabs.h3")}</h3>
-          <div className={`content__section ${activeTab === 1 ? 'visible' : ''}`}>
-            <div>
-              <ul>
-                {verticaltabs("contentJS")}
-              </ul>
-            </div>
-          </div>
-          <div className={`content__section ${activeTab === 2 ? 'visible' : ''}`}>
-            <div>
-              <ul>
-                {verticaltabs("contentReact")}
-              </ul>
-            </div>
-          </div>
-          <div className={`content__section ${activeTab === 3 ? 'visible' : ''}`}>
-            <div>
-              <ul>
-                {verticaltabs("contentTS")}
-              </ul>
-            </div>
-          </div>
-          <div className={`content__section ${activeTab === 4 ? 'visible' : ''}`}>
-            <div>
-              <ul>
-                {verticaltabs("contentNode")}
-              </ul>
-            </div>
-          </div>
+          {verticaltabs("contentJS", 1)}
+          {verticaltabs("contentReact", 2)}
+          {verticaltabs("contentTS", 3)}
+          {verticaltabs("contentNode", 4)}
         </div>
       </div>
     </section>

@@ -22,6 +22,19 @@ export const Home = () => {
         setIsOpen(false);
     };
 
+    const options = (img, text, lng) => {
+        return (
+            <button className="option" onClick={() => handleOptionClick({ text: text, img: img })}>
+                <div className="content-option" onClick={() => i18n.changeLanguage(lng)}>
+                    <img src={img} alt="" />
+                    <div className="texts">
+                        <span className="title">{text}</span>
+                    </div>
+                </div>
+            </button>
+        )
+    }
+
     return (
         <section className='section-home' id='home'>
             <div className="main-content">
@@ -44,22 +57,8 @@ export const Home = () => {
                         </div>
 
                         <div className={`options ${isOpen ? 'active' : ''}`}>
-                            <button className="option" onClick={() => handleOptionClick({ text: "English", img: uk })}>
-                                <div className="content-option" onClick={() => i18n.changeLanguage("en")}>
-                                    <img src={uk} alt="" />
-                                    <div className="texts">
-                                        <span className="title">English</span>
-                                    </div>
-                                </div>
-                            </button>
-                            <button href="#" className="option" onClick={() => handleOptionClick({ text: "Español", img: spain })}>
-                                <div className="content-option" onClick={() => i18n.changeLanguage("es")}>
-                                    <img src={spain} alt="" />
-                                    <div className="texts">
-                                        <span className="title">Español</span>
-                                    </div>
-                                </div>
-                            </button>
+                            {options(uk, "English", "en")}
+                            {options(spain, "Español", "es")}
                         </div>
                     </div>
                     <input type="hidden" name="pais" id="inputSelect" value={selectedOption.text} />

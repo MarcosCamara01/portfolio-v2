@@ -22,16 +22,22 @@ export const Navbar = () => {
         }
     }, [clicked]);
 
+    const link = (section) => {
+        return (
+            <a href={`#${section}`} onClick={() => setClicked(false)}>{t(`header.${section}`)}</a>
+        )
+    }
+
     return (
         <header>
             <div className="logo-bx">
                 <a href="#home"><HiOutlineCode /></a>
             </div>
             <nav className={clicked ? "responsive_nav" : ""}>
-                <a href="#home" onClick={() => setClicked(false)}>{t("header.home")}</a>
-                <a href="#projects" onClick={() => setClicked(false)}>{t("header.work")}</a>
-                <a href="#skills" onClick={() => setClicked(false)}>{t("header.skills")}</a>
-                <a href="#contact" onClick={() => setClicked(false)}>{t("header.contact")}</a>
+                {link("home")}
+                {link("projects")}
+                {link("skills")}
+                {link("contact")}
             </nav>
 
             <button className="nav-btn">
