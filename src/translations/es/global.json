@@ -1,4 +1,6 @@
-{
+{   
+    "title": "Portafolio | Marcos Cámara",
+    "description": "Marcos en un desarrollador web especializado en la creación de aplicaciones web con React, NextJS, JavaScript y TypeScript. Actualmente interesado en trabajar como desarrollador front-end con personas o empresas que quieran crear aplicaciones web increíbles.",
     "header": {
         "home": "Inicio",
         "skills": "Habilidades",
