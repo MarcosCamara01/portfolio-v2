@@ -82,6 +82,20 @@
             },
             {
                 "project_type": "Proyecto destacado",
+                "h4": "ChatGPT Clone",
+                "p": "Aplicación creada con NextJS y TypeScript, utiliza Vercel AI SDK para hacer streaming de los datos que le llegan en tiempo real de la API de OpenAI, esta aplicación también tiene la funcionalidad de guardar los datos en la base de datos de MongoDB haciendo solicitudes API. Los chats guardados se muestran al inicio de aplicación para poder navegar entre ellos. El diseño, hecho con TailwindCSS intenta clonar el de la web oficial de ChatGPT.",
+                "technologies": [
+                    "NextJs",
+                    "React",
+                    "OpenAI",
+                    "AISDK"
+                ],
+                "link_web": "https://chatgpt-clone-six-ochre.vercel.app/",
+                "link_git": "https://github.com/MarcosCamara01/chatgpt-clone",
+                "img": "ChatGPTClone"
+            },
+            {
+                "project_type": "Proyecto destacado",
                 "h4": "Netflix Clone",
                 "p": "Clon de Netflix creado con React y CSS, usa la API de Themoviedb para obtener las fotos, descripción y títulos  de cada una de las películas. Esta aplicación es totalmente adaptable a todo tipo de pantallas.",
                 "technologies": [
@@ -93,21 +107,7 @@
                 "link_web": "https://netflix-clone-fc3ae.web.app/",
                 "link_git": "https://github.com/MarcosCamara01/netflix-clone",
                 "img": "NetflixClone"
-            },
-            {
-                "project_type": "Proyecto destacado",
-                "h4": "ChatGPT Clone",
-                "p": "Aplicación creada con NextJS que que utiliza vercel AI SDK. Usa streaming de datos para mostrar texto mientras lo genera GPT 3.5, el diseño simula el que tiene la web oficial de ChatGPT.",
-                "technologies": [
-                    "NextJs",
-                    "React",
-                    "CSS",
-                    "AISDK"
-                ],
-                "link_web": "https://chatgpt-clone-six-ochre.vercel.app/",
-                "link_git": "https://github.com/MarcosCamara01/chatgpt-clone",
-                "img": "ChatGPTClone"
-            },
+            },         
             {
                 "project_type": "Proyecto destacado",
                 "h4": "Google Keep Clone",
