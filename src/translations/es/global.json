@@ -40,13 +40,17 @@
         ],
         "contentReact": [
             {
+                "title": "Advanced React - Meta",
+                "link": "https://www.coursera.org/account/accomplishments/verify/XRM8Z99Z3BAB"
+            },
+            {
                 "title": "Learn React - CodeCademy",
                 "link": "./pdf/react1.pdf"
             },
             {
                 "title": "Master en React - Víctor Robles",
                 "link": "./pdf/react2.pdf"
-            }
+            }      
         ],
         "contentNode": [
             {
@@ -70,17 +74,17 @@
         "content": [
             {
                 "project_type": "Proyecto destacado",
-                "h4": "Twitter Clone",
-                "p": "Esta aplicación simula muchas de las funciones de una red social como Twitter. El back-end está construido con Node.js para poder interactuar y conectarse con un servidor MongoDB, el lado cliente está construido con React y CSS, el cual es totalmente compatible con todo tipo de dispositivos.",
+                "h4": "Ecommerce Template",
+                "p": "Ecommerce creado con NextJS y TypeScript, usa Stripe como procesador de pagos, MongoDB como base de datos y NextAuth para autenticar usuarios. Tiene las funcionalidades típicas de ecommerce como login y registro, categorías de productos, página única para cada producto, funcionalidades de carrito de la compra y lista de deseos y guardado de compras en la base de datos para que el usuario pueda ver los productos que ha comprado. El tiempo de carga y el SEO están súper optimizados.",
                 "technologies": [
-                    "React",
-                    "Node.js",
-                    "MongoDB",
-                    "CSS"
+                    "NextJs",
+                    "TypeScript",
+                    "NextAuth",
+                    "Stripe"
                 ],
-                "link_web": "https://twitter-clone-aca36.web.app/",
-                "link_git": "https://github.com/MarcosCamara01/twitter-clone",
-                "img": "TwitterClone"
+                "link_web": "https://ecommerce-template-mpc.vercel.app",
+                "link_git": "https://github.com/MarcosCamara01/ecommerce-template",
+                "img": "EcommerceTemplate"
             },
             {
                 "project_type": "Proyecto destacado",
@@ -98,6 +102,20 @@
             },
             {
                 "project_type": "Proyecto destacado",
+                "h4": "Twitter Clone",
+                "p": "Esta aplicación simula muchas de las funciones de una red social como Twitter. El back-end está construido con Node.js para poder interactuar y conectarse con un servidor MongoDB, el lado cliente está construido con React y CSS, el cual es totalmente compatible con todo tipo de dispositivos.",
+                "technologies": [
+                    "React",
+                    "Node.js",
+                    "MongoDB",
+                    "CSS"
+                ],
+                "link_web": "https://twitter-clone-aca36.web.app/",
+                "link_git": "https://github.com/MarcosCamara01/twitter-clone",
+                "img": "TwitterClone"
+            },
+            {
+                "project_type": "Proyecto destacado",
                 "h4": "Netflix Clone",
                 "p": "Clon de Netflix creado con React y CSS, usa la API de Themoviedb para obtener las fotos, descripción y títulos  de cada una de las películas. Esta aplicación es totalmente adaptable a todo tipo de pantallas.",
                 "technologies": [
@@ -109,20 +127,6 @@
                 "link_web": "https://netflix-clone-fc3ae.web.app/",
                 "link_git": "https://github.com/MarcosCamara01/netflix-clone",
                 "img": "NetflixClone"
-            },         
-            {
-                "project_type": "Proyecto destacado",
-                "h4": "Google Keep Clone",
-                "p": "Aplicación de notas que utiliza una API creada con NodeJs para interactuar y conectarse con el servidor de MongoDB. El lado del cliente está creado con React y CSS, el cual es compatible con todo tipo de dispositivos.",
-                "technologies": [
-                    "Node.js",
-                    "React",
-                    "MongoDB",
-                    "Express"
-                ],
-                "link_web": "https://keep-clone-1.web.app/",
-                "link_git": "https://github.com/MarcosCamara01/google-keep-clone",
-                "img": "GoogleKeepClone"
             }
         ]
     },

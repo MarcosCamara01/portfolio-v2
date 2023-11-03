@@ -41,6 +41,10 @@
         ],
         "contentReact": [
             {
+                "title": "Advanced React - Meta",
+                "link": "https://www.coursera.org/account/accomplishments/verify/XRM8Z99Z3BAB"
+            },
+            {
                 "title": "Learn React - CodeCademy",
                 "link": "./pdf/react1.pdf"
             },
@@ -70,18 +74,18 @@
         "h2": "Things I've built",
         "content": [
             {
-                "project_type": "Featured project",
-                "h4": "Twitter Clone",
-                "p": "This app simulates many of the functions of a social network like Twitter. The back-end is built with Node.js to interact and connect with a MongoDB server, the client side is built with React and CSS, which is fully compatible with all kinds of devices.",
+                "project_type": "Proyecto destacado",
+                "h4": "Ecommerce Template",
+                "p": "Ecommerce built with NextJS and TypeScript, uses Stripe as payment processor, MongoDB as database and NextAuth to authenticate users. It has the typical ecommerce functionalities such as login and registration, product categories, unique page for each product, shopping cart and wishlist functionalities and saving of purchases in the database so that the user can see the products they have purchased. Loading time and SEO are super optimised.",
                 "technologies": [
-                    "React",
-                    "Node.js",
-                    "MongoDB",
-                    "CSS"
+                    "NextJs",
+                    "TypeScript",
+                    "NextAuth",
+                    "Stripe"
                 ],
-                "link_web": "https://twitter-clone-aca36.web.app/",
-                "link_git": "https://github.com/MarcosCamara01/twitter-clone",
-                "img": "TwitterClone"
+                "link_web": "https://ecommerce-template-mpc.vercel.app",
+                "link_git": "https://github.com/MarcosCamara01/ecommerce-template",
+                "img": "EcommerceTemplate"
             },
             {
                 "project_type": "Featured project",
@@ -99,6 +103,20 @@
             },
             {
                 "project_type": "Featured project",
+                "h4": "Twitter Clone",
+                "p": "This app simulates many of the functions of a social network like Twitter. The back-end is built with Node.js to interact and connect with a MongoDB server, the client side is built with React and CSS, which is fully compatible with all kinds of devices.",
+                "technologies": [
+                    "React",
+                    "Node.js",
+                    "MongoDB",
+                    "CSS"
+                ],
+                "link_web": "https://twitter-clone-aca36.web.app/",
+                "link_git": "https://github.com/MarcosCamara01/twitter-clone",
+                "img": "TwitterClone"
+            },
+            {
+                "project_type": "Featured project",
                 "h4": "Netflix Clone",
                 "p": "Netflix clone created with React and CSS, it uses the Themoviedb API to get the photos, description and titles of each of the movies. This application is fully adaptable to all types of screens.",
                 "technologies": [
@@ -110,20 +128,6 @@
                 "link_web": "https://netflix-clone-fc3ae.web.app/",
                 "link_git": "https://github.com/MarcosCamara01/netflix-clone",
                 "img": "NetflixClone"
-            },
-            {
-                "project_type": "Featured project",
-                "h4": "Google Keep Clone",
-                "p": "Note application which uses an API created with NodeJs that allows to interact and connect with the MongoDB server, the client side is created with React and CSS, which is compatible with all types of devices.",
-                "technologies": [
-                    "Node.js",
-                    "React",
-                    "MongoDB",
-                    "Express"
-                ],
-                "link_web": "https://keep-clone-1.web.app/",
-                "link_git": "https://github.com/MarcosCamara01/google-keep-clone",
-                "img": "GoogleKeepClone"
             }
         ]
     },

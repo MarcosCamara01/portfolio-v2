@@ -40,7 +40,6 @@ function App() {
     updateHeadContent();
   }, [currentLanguage]);
 
-
   return (
     <>
       {/* Navegación Y Contacto */}
