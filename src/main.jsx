@@ -25,8 +25,10 @@ i18next.init({
 function getDefaultLanguage() {
   const userLanguage = navigator.language || "es";
 
-  if (userLanguage === "es" || userLanguage === "en") {
-    return userLanguage;
+  const languageCode = userLanguage.split("-")[0];
+
+  if (languageCode === "es" || languageCode === "en") {
+    return languageCode;
   } else {
     return "en";
   }
