@@ -8,8 +8,8 @@ export const Home = () => {
     const [t, i18n] = useTranslation("global");
 
     const [selectedOption, setSelectedOption] = useState({
-        text: "Español",
-        img: spain
+        text: i18n.language === "en" ? "English" : "Español",
+        img: i18n.language === "en" ? uk : spain
     });
 
     const [isOpen, setIsOpen] = useState(false);
