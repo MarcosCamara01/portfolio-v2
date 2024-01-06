@@ -74,7 +74,7 @@
         "h2": "Things I've built",
         "content": [
             {
-                "project_type": "Proyecto destacado",
+                "project_type": "Featured project",
                 "h4": "Ecommerce Template",
                 "p": "Ecommerce built with NextJS and TypeScript, uses Stripe as payment processor, MongoDB as database and NextAuth to authenticate users. It has the typical ecommerce functionalities such as login and registration, product categories, unique page for each product, shopping cart and wishlist functionalities and saving of purchases in the database so that the user can see the products they have purchased. Loading time and SEO are super optimised.",
                 "technologies": [

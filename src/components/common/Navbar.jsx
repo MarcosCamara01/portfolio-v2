@@ -1,8 +1,8 @@
+import React from 'react';
 import { useEffect, useState } from "react";
 import BurguerButton from "./BurguerButton";
 import { useTranslation } from "react-i18next";
 import { HiOutlineCode } from "react-icons/hi";
-
 
 export const Navbar = () => {
 

@@ -1,5 +1,6 @@
+import React from 'react';
+import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import './App.css'
 import { EmailContact } from './components/common/EmailContact';
 import { Footer } from './components/common/Footer';
 import { Navbar } from './components/common/Navbar';
@@ -9,7 +10,7 @@ import { Home } from './components/Home';
 import { OtherProjects } from './components/OtherProjects';
 import { Projects } from './components/Projects';
 import VerticalTabs from './components/VerticalTabs';
-import { useEffect, useState } from 'react';
+import './App.css';
 
 function App() {
 
